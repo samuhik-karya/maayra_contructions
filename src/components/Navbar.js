@@ -18,7 +18,7 @@ export default function Navbar() {
 
                 <div className="mx-auto order-0 w-100 text-center">
                     <p className='m-0 p-1'>Luxurious & Premium Quality House (RCC Civil Contractor)</p>
-                    <hr className='m-0' />
+                    <hr className='m-0 nav-hr' />
                     <div className='m-0 p-2 fw-bold d-flex align-items-center justify-content-around'>
                         <a className='navbar-middle-link' href="#!">Villa & Bunglows</a>
                         <hr className='m-0 vr' />

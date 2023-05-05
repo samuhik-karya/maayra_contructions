@@ -8,7 +8,7 @@ nav {
     height: 90px;
 }
 
-hr {
+.nav-hr {
     border: none;
     height: 1px;
     background-color: black !important;
