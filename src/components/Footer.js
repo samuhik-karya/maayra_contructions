@@ -19,6 +19,7 @@ const Footer = () => {
                             <li><span>Legal Agreement, With Penalty Clauses</span></li>
                         </ul>
                     </div>
+                    <hr className='footer-hr'/>
                     <div className='column'>
                         <h5 className='footer-column-title'>Our Value Added Services</h5>
                         <ul className='fs-6 list-group list-group-flush'>
@@ -30,15 +31,16 @@ const Footer = () => {
                             <li className='list-group-none'><span>Penalise us for any delay</span></li>
                         </ul>
                     </div>
+                    <hr className='footer-hr'/>
                     <div className='column'>
                         <h5 className='footer-column-title'>Contact Us</h5>
                         <h6 className='text-grey'>Registered Office</h6>
-                        <ul className='fs-6'>
-                        <li className='list-group-none text-grey'><i class="fa-solid fa-check-square" /><b>Surat</b><br />Salarium Business Center<br />Vesu, VIP Road, Surat - 395007</li>
-                            <li className='list-group-none text-grey'><b>Mobile: </b><br />+91 9325412556</li>
-                            <li className='list-group-none text-grey'><b>For General Enquiry: </b><br />info@maayraconstructions.com</li>
-                            <li className='list-group-none text-grey'><b>For any Complaint / Feedback: </b><br />admin@maayraconstructions.com</li>
-                            <li className='list-group-none text-grey'><b>To apply for job: </b><br />hr@maayraconstructions.com</li>
+                        <ul className='fs-6 fa-ul'>
+                            <li className='list-group-none text-grey'><span class="fa-li"><i class="fa-sharp fa-solid fa-location-dot" /></span><b>Surat</b><br />Salarium Business Center<br />Vesu, VIP Road, Surat - 395007</li>
+                            <li className='list-group-none text-grey'><span class='fa-li'><i class="fa-sharp fa-solid fa-phone" /></span><b>Mobile: </b><br />+91 9325412556</li>
+                            <li className='list-group-none text-grey'><span class='fa-li'><i class="fa-sharp fa-regular fa-envelope" /></span><b>For General Enquiry: </b><br />info@maayraconstructions.com</li>
+                            <li className='list-group-none text-grey'><span class='fa-li'><i class="fa-sharp fa-regular fa-envelope" /></span><b>For any Complaint / Feedback: </b><br />admin@maayraconstructions.com</li>
+                            <li className='list-group-none text-grey'><span class='fa-li'><i class="fa-sharp fa-regular fa-envelope" /></span><b>To apply for job: </b><br />hr@maayraconstructions.com</li>
                         </ul>
                     </div>
                 </div>
@@ -50,12 +52,12 @@ const Footer = () => {
                     <img className='store' src={playstore} alt='' />
                 </div>
             </div>
-            <div className='d-flex flex-row flex-wrap justify-content-around p-2'>
-                <span className='text-grey'>All rights reserved -  2023. Maayra Constructions Pvt. Ltd.</span>
-                <span className='text-grey'>
+            <div className='d-flex flex-row flex-wrap justify-content-around p-lg-4'>
+                <span className='text-grey text-center'>All rights reserved - 2023. Maayra Constructions Pvt. Ltd.</span>
+                <span className='text-grey text-center'>
                     <a className='copyright-links text-grey' href='#!'>Disclaimer</a> | <a className='copyright-links text-grey ' href='#!'>Copyrights & Terms</a> | <a className='copyright-links text-grey ' href='#!'>Privacy Policy</a>
                 </span>
-                <span className='text-grey'>Website Design: Setblue.com</span>
+                <span className='text-grey text-center'>Website Design: Setblue.com</span>
             </div>
         </div>
     )
