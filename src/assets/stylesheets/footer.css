@@ -1,100 +1,55 @@
-.footer-text {
-    color: rgb(3, 2, 2);
-    text-decoration: none;
-    font-size: 15px;
-}
-
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000000;
-    width: 100%;
-}
-
-.footer-content {
-    width: 90%;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(144, 137, 137);
-    padding: 2px;
-}
-
-.whyus_text {
-    color: #a78f5c;
-}
-
-li {
-    font-size: 20px;
-    color: #a78f5c;
-}
-
-hr {
-    padding: 0;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-li>span {
-    font-size: 13px;
-    color: rgb(189, 181, 181);
-    font-weight: 600;
-}
-
-.download_text {
-    font-size: 25px;
-    font-weight: 600px;
-    color: #a78f5c;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-@media (max-width : 768px) {
-    .download_text {
-        margin-right: 0px;
-    }
-}
-
-.storeicon {
-    height: 37px;
-    width: 130px;
-    border-radius: 3px;
-    border: 1px solid white;
-}
-
-.vr {
-    transform: rotate(90);
-    width: 1px !important;
-    color: white;
+    background: black;
 }
 
 .column {
-    width: 350px;
-    font-size: 13px;
-    font-weight: 600;
-    color: rgb(176, 174, 164);
+    width: 30%;
 }
 
-.career-btn {
-    background-color: rgb(82, 154, 10);
-    border: 0px;
-    margin-top: 2px;
-    margin-left: 15px;
-    color: aliceblue;
-    border-radius: 3px;
+.footer-column-title {
+    color: #a7905c;
 }
 
-.main_links {
-    background-color: black;
+li {
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: #a7905c;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #999999;
 }
 
-@media (max-width : 768px) {
-    .column_first {
-        margin-left: 0%;
+.copyright-links {
+    text-decoration: none;
+}
+
+li > span, .text-grey {
+    color: #999999 !important;
+}
+
+.store {
+    width: 115px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.main-column {
+    background-color: #282828;
+}
+
+.main-column > * {
+    margin: 10px;
+}
+
+.list-group-none {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        padding: 40px;
+        width: 100%;
     }
-}
-
-.copyright_text {
-    color: rgb(144, 137, 137);
 }

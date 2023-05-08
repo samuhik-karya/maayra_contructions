@@ -1,0 +1,19 @@
+@media only screen and (max-width: 767px) {
+    .specialization-card-image {
+        width: 80%;
+    }
+
+    .flex-row-reverse {
+        flex-direction: row !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .flex-row-reverse {
+        flex-direction: row !important;
+    }
+
+    .feature-card {
+        flex-direction: column !important;
+    }
+}

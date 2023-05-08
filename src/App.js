@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar"
 import PageHeader from "./assets/images/expertHeader.png"
-import SpecializationSection from "./components/SpecializationSection"
-import Footer from "./component/Footer";
+import FeatureSection from "./components/FeatureSection"
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
-      <img src={PageHeader} alt='' width={"100%"} />
-      <SpecializationSection />
+      <img class='page-header' src={PageHeader} alt='' width={"100%"} />
+      <FeatureSection />
       <Footer/>
     </>
   );

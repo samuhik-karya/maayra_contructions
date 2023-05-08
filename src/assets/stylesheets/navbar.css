@@ -39,3 +39,50 @@ nav {
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .brand-logo {
+        height: 70% !important;
+        width: 50% !important;
+    }
+
+    .navbar-toggler-title {
+        display: none;
+    }
+
+    .navbar-col-collapse {
+        display: none;
+    }
+
+    .navbar-col {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .navbar-col {
+        width: 50% !important;
+    }
+
+    .brand-logo {
+        height: 70% !important;
+        width: 100% !important;
+    }
+
+    .navbar-col-collapse {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 16px;
+    }
+
+    .navbar-toggler-title {
+        display: none;
+    }
+
+    .p-lg-5 {
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+}
